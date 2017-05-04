@@ -8,6 +8,18 @@
  <servlet>
  	<servlet-name>struts1</servlet-name>
  	<servlet-class>org.apache.struts.action.ActionServlet</servlet-class>
+ 	<init-param>
+            <param-name>config</param-name>
+        </init-param>
+        <init-param>
+            <param-name>debug</param-name>
+            <param-value>2</param-value>
+        </init-param>
+        <init-param>
+            <param-name>detail</param-name>
+            <param-value>2</param-value>
+        </init-param>
+        <load-on-startup>2</load-on-startup>
  </servlet>
  <servlet-mapping>
  	<servlet-name>struts1</servlet-name>
